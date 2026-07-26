@@ -6,9 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./config/crds/bases
+  path: ./deploy/crds
   prune: true
-  wait: true
   sourceRef:
     kind: GitRepository
     name: external-secrets

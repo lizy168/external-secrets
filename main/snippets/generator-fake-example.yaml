@@ -1,9 +1,9 @@
-apiVersion: external-secrets.io/v1
+apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
   name: "fake"
 spec:
-  refreshInterval: "30m0s"
+  refreshInterval: "30m"
   target:
     name: fake
   dataFrom:
